@@ -57,21 +57,8 @@ nav>ul>li {
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
-    font-size: calc(1rem * (1 / 1vw));
+    font-size: calc(1rem + 0.5vw);
     transition: all 0.15s ease-in-out 0s;
-}
-
-/* Increase font size for larger screens (e.g., tablets, desktops) */
-@media (min-width: 768px) {
-    nav > ul > li {
-        font-size: calc(1.4rem * (1 / 1vw)); /* Larger font size for medium and larger screens */
-    }
-}
-
-@media (min-width: 1024px) {
-    nav > ul > li {
-        font-size: calc(2rem * (1 / 1vw)); /* Larger font size for larger desktops */
-    }
 }
 
 /* Mobile styles */
@@ -84,11 +71,10 @@ nav>ul>li {
 
     nav > ul {
         justify-content: center;
-        /* width: 100%; */
     }
 
     nav > ul > li {
-        margin: 0 0.6rem; /* Adjust margin for spacing */
+        margin: 0 0.6rem;
     }
 }
 
@@ -104,7 +90,6 @@ li>a {
 
 main {
     padding-top: 40px;
-    /* padding-left: 15px; */
 }
 
 .title>* {
@@ -181,6 +166,8 @@ main li {
 
 .date {
     text-align: left;
+    font-style: italic;
+    padding: 5px 0;
 }
 
 .location {
@@ -235,4 +222,5 @@ footer {
  * References
  *   MDN Web Docs: https://developer.mozilla.org/en-US/
  *   freeCodeCamp's HTML/CSS course: https://www.freecodecamp.org/learn/2022/responsive-web-design/
+ *   W3 Nu HTML/CSS Validator: https://validator.w3.org/nu/#textarea
 */
