@@ -1,8 +1,7 @@
 /* 
  * CSS so that it looks pretty
- * Modified: 2/23/2025
+ * Modified: 2/24/2025
 */
-
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
@@ -228,3 +227,12 @@ main li {
     border-bottom: solid #1b1b32;
     cursor: pointer;
 }
+
+footer {
+    text-align: center;
+}
+/* 
+ * References
+ *   MDN Web Docs: https://developer.mozilla.org/en-US/
+ *   freeCodeCamp's HTML/CSS course: https://www.freecodecamp.org/learn/2022/responsive-web-design/
+*/
