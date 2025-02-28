@@ -121,7 +121,7 @@ section {
 h2 {
     border-bottom: 4px solid #dfdfe2;
     margin-top: 0px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 h3 {
@@ -150,9 +150,11 @@ main li {
 }
 
 .extra-info {
-    text-decoration: dashed underline #113321;
+    /* text-decoration: dashed underline #113321; */
     color: #634806;
     overflow-wrap: break-word;
+    border: dashed 2px #113321;
+    /* border-radius: 5px; */
 }
 
 .experience-info {
