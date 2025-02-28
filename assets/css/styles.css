@@ -1,6 +1,6 @@
 /* 
  * CSS so that it looks pretty
- * Modified: 2/24/2025
+ * Modified: 2/28/2025
 */
 @media (prefers-reduced-motion: no-preference) {
     * {
@@ -150,11 +150,9 @@ main li {
 }
 
 .extra-info {
-    /* text-decoration: dashed underline #113321; */
+    text-decoration: dashed underline #113321;
     color: #634806;
     overflow-wrap: break-word;
-    border: dashed 2px #113321;
-    /* border-radius: 5px; */
 }
 
 .experience-info {
@@ -217,8 +215,9 @@ main li {
     cursor: pointer;
 }
 
-footer {
+footer p{
     text-align: center;
+    font-size: small;
 }
 /* 
  * References
